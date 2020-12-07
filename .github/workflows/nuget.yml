@@ -1,7 +1,7 @@
 name: "deploy to nuget"
 on: ["push"]
 env:
-  PROJECT_PATH: 'MyCommon\MyCommon.csproj'
+  PROJECT_PATH: 'MyCommon/MyCommon.csproj'
   PACKAGE_OUTPUT_DIR: ${{github.workspace}}\output
   NUGET_SOURCE_URL: "https://api.nuget.org/v3/index.json"
 jobs:
