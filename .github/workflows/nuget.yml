@@ -10,10 +10,10 @@ jobs:
     runs-on: "windows-latest"
     steps:
     - name: "Checkout"
-      uses: action/checkout@v2
+      uses: actions/checkout@v2
 
     - name: "Install dotnet"
-      uses: action/step-dotnet@v1
+      uses: actions/step-dotnet@v1
       with: 
         dotnet-version: "5.0"
 
