@@ -4,5 +4,6 @@ namespace MyCommon
 {
   public class Class1
   {
+
   }
 }
