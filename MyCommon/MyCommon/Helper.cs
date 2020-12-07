@@ -8,6 +8,7 @@ namespace MyCommon
         {
             Console.WriteLine("Hello world");
             Console.WriteLine("Hello");
+
         }
     }
 }
