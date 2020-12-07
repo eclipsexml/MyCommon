@@ -1,0 +1,30 @@
+name: "deploy to nuget"
+on: ["push"]
+env:
+  PROJECT_PATH: "MyCommon/MyCommon.csproj"
+  PACKAGE_OUTPUT_DIR: ${{github.workspace}}\output
+  NUGET_SOURCE_URL: "https://api.nuget.org/v3/index.json"
+jobs:
+  deploy:
+    name: "Deploy"
+    runs-on: "windows-lastest"
+    steps:
+    - name: "Checkout"
+      uses: action/checkout@v2
+
+    - name: "Install dotnet"
+      uses: action/step-dotnet@v1
+      with: 
+        dotnet-version: "5.0"
+
+    - name: "Restore packages"
+      run: dotnet restore ${{env.PROJECT_PATH}}
+    
+    - name: "Build packages"
+      run: dotnet build ${{env.PROJECT_PATH}} --no-restore --configuration Release
+
+    - name: "Pack project"
+      run: dotnet pack ${{env.PROJECT_PATH}} --no-restore --no-build --configuration Release --include-symbols --out ${{env.PACKAGE_OUTPUT_DIR}}
+    
+    - name: "Push package"
+      run: dotnet nuget push ${{env.PACKAGE_OYTPUT_DIR}}\*.nupkg -k ${{secrets.NUGET_AUTH_TOKEN}} -s ${{env.NUGET_SOURCE_URL}}

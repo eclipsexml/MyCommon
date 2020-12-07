@@ -7,6 +7,7 @@ namespace MyCommon
         public static void ShowHelloworld()
         {
             Console.WriteLine("Hello world");
+            Console.WriteLine("Hello");
         }
     }
 }
