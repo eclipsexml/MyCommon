@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Xiemaolin.MyCommon</id>
+    <version>0.0.1</version>
+    <authors>Xiemaolin.MyCommon</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\MyFrame\MyCommon\MyCommon\MyCommon\bin\Debug\net5.0\Xiemaolin.MyCommon.dll" target="lib\net5.0\Xiemaolin.MyCommon.dll" />
+  </files>
+</package>

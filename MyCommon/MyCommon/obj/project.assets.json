@@ -12,11 +12,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.0.1",
     "restore": {
-      "projectUniqueName": "D:\\MyFrame\\MyCommon\\MyCommon\\MyCommon\\MyCommon.csproj",
-      "projectName": "MyCommon",
-      "projectPath": "D:\\MyFrame\\MyCommon\\MyCommon\\MyCommon\\MyCommon.csproj",
+      "projectUniqueName": "D:\\MyFrame\\MyCommon\\MyCommon\\MyCommon\\Xiemaolin.MyCommon.MyCommon.csproj",
+      "projectName": "Xiemaolin.MyCommon",
+      "projectPath": "D:\\MyFrame\\MyCommon\\MyCommon\\MyCommon\\Xiemaolin.MyCommon.MyCommon.csproj",
       "packagesPath": "C:\\Users\\39302\\.nuget\\packages\\",
       "outputPath": "D:\\MyFrame\\MyCommon\\MyCommon\\MyCommon\\obj\\",
       "projectStyle": "PackageReference",

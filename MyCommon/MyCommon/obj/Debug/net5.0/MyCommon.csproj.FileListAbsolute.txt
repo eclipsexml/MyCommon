@@ -1,0 +1,12 @@
+D:\MyFrame\MyCommon\MyCommon\MyCommon\bin\Debug\net5.0\MyCommon.deps.json
+D:\MyFrame\MyCommon\MyCommon\MyCommon\bin\Debug\net5.0\MyCommon.dll
+D:\MyFrame\MyCommon\MyCommon\MyCommon\bin\Debug\net5.0\ref\MyCommon.dll
+D:\MyFrame\MyCommon\MyCommon\MyCommon\bin\Debug\net5.0\MyCommon.pdb
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\MyCommon.csprojAssemblyReference.cache
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\MyCommon.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\MyCommon.AssemblyInfoInputs.cache
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\MyCommon.AssemblyInfo.cs
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\MyCommon.csproj.CoreCompileInputs.cache
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\MyCommon.dll
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\ref\MyCommon.dll
+D:\MyFrame\MyCommon\MyCommon\MyCommon\obj\Debug\net5.0\MyCommon.pdb
