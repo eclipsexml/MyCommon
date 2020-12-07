@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Xiemaolin.MyCommon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.3")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.4.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Xiemaolin.MyCommon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Xiemaolin.MyCommon")]
-[assembly: System.Reflection.AssemblyVersionAttribute("0.0.3.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.0.4.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 
