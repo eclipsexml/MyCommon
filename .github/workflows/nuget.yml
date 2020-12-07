@@ -27,4 +27,4 @@ jobs:
       run: dotnet pack ${{env.PROJECT_PATH}} --no-restore --no-build --configuration Release --include-symbols --output ${{ env.PACKAGE_OUTPUT_DIR }}
     
     - name: "Push package"
-      run: dotnet nuget push ${{ env.PACKAGE_OUTPUT_DIR }}\*.nupkg -k oy2ga3ltnh57qv6zzyuqwfn2cvfpwh4ujd5nok3hrxeg2y -s ${{env.NUGET_SOURCE_URL}}
+      run: dotnet nuget push ${{ env.PACKAGE_OUTPUT_DIR }}\*.nupkg -k oy2fwx3zh7nb274m2jhabq6byebllcxe7oq6ngstcgn7zm -s ${{env.NUGET_SOURCE_URL}}
